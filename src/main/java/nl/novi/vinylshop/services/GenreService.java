@@ -1,3 +1,5 @@
+package nl.novi.vinylshop.services;
+
 import nl.novi.vinylshop.entities.Genre;
 import org.springframework.stereotype.Service;
 
@@ -18,7 +20,6 @@ import java.util.List;
 @Service
 public class GenreService {
 
-
     private final ArrayList<Genre> genreRepository;
 
     public GenreService() {
@@ -27,7 +28,7 @@ public class GenreService {
 
     /**
      * Haalt alle record uit de mock-database op.
-     * Als de mock-database leeg is, wordt een lege lijst gertourneerd.
+     * Als de mock-database leeg is, wordt een lege lijst geretourneerd.
      * @return
      */
     public List<Genre> findAllGenres() {
@@ -67,6 +68,7 @@ public class GenreService {
 
         existingGenreEntity.setName(genreInput.getName());
         existingGenreEntity.setDescription(genreInput.getDescription());
+        return existingGenreEntity;
     }
 
     /**

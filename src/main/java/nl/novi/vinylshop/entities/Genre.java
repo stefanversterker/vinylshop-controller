@@ -1,3 +1,5 @@
+package nl.novi.vinylshop.entities;
+
 public class Genre {
     /**
      * Dit is een mock-model voor de Genre.

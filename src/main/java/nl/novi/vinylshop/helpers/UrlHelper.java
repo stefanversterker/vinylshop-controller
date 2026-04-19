@@ -1,3 +1,5 @@
+package nl.novi.vinylshop.helpers;
+
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Component;
 

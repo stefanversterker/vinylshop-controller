@@ -1,13 +1,13 @@
-package nl.novi.vinylshopcontroller.controllers;
+package nl.novi.vinylshop;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class VinylshopControllerApplication {
+public class VinylshopCollectionApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(VinylshopControllerApplication.class, args);
+        SpringApplication.run(VinylshopCollectionApplication.class, args);
     }
 
 }
